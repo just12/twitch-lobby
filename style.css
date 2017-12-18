@@ -1,0 +1,53 @@
+*{font-family: sans-serif;}
+
+body{
+  background-color: #111;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+div.qwe{
+  background-color: #181818;
+  width: calc(100% - 20px);
+  height: 100px;
+  margin: 10px;
+  top: 10px;
+  left: 50%;
+  display: flex;
+}
+
+div.qwe div{
+  background-color: #222;
+  flex-grow: 1;
+  margin: 5px;
+  height: calc(100% - 10px);
+  justify-content: space-evenly;
+  text-align: center;
+  display: flex;
+  background-position: center;
+  background-size: cover;
+}
+
+div.qwe div a{
+  color: #eee;
+  bottom: 1px;
+  align-self: flex-end;
+  flex-grow: 1;
+  background-color: rgba(0,0,0,.7);
+}
+
+div#robbaz{background-image: url(src/robbaz.jpeg)}
+div#wismichu{background-image: url(src/wismichu.jpeg)}
+div#realjameskii{background-image: url(src/realjameskii.png)}
+div#mogra{background-image: url(src/mogra.jpeg)}
+div#sovietwomble{background-image: url(src/sovietwomble.jpeg)}
+
+div#krunkidile{background-image: url(src/krunkidile.png)}
+div#soyfelipez360{background-image: url(src/soyfelipez360.jpeg)}
+div#nonetheghost{background-image: url(src/nonetheghost.jpeg)}
+div#basedtrolso{background-image: url(src/basedtrolso.jpeg)}
+div#alexelcapo{background-image: url(src/alexelcapo.gif)}
+
+div#srserpiente{background-image: url(src/srserpiente.jpeg)}
+div#imadafaca{background-image: url(src/imadafaca.png)}
