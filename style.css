@@ -51,3 +51,20 @@ div#alexelcapo{background-image: url(src/alexelcapo.gif)}
 
 div#srserpiente{background-image: url(src/srserpiente.jpeg)}
 div#imadafaca{background-image: url(src/imadafaca.png)}
+
+iframe{
+  border: 0px;
+  position: absolute;
+  top: 0px;
+  height: 100%;
+}
+
+iframe#player{
+  left: 0px;
+  width: 70%;
+}
+
+iframe#chat{
+  right: 0px;
+  width: 30%;
+}
